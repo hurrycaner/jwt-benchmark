@@ -1,7 +1,7 @@
 github.com/brianvoe/sjwt v0.5.1 h1:OKwnUrrVMnP81N9S5+ylgZECUEwW4Uw6W6J0FgcIZfw=
 github.com/brianvoe/sjwt v0.5.1/go.mod h1:GsyrNi4zWvWAcsVGNNMULQ8SfDMmJ2ybzAyPjNQJJL8=
-github.com/cristalhq/jwt v1.2.0 h1:fHmMkFJvEbS4o04aQP8BmtJg7fqkYvd7r8er3sUdS4Q=
-github.com/cristalhq/jwt v1.2.0/go.mod h1:QQFazsDzoqeucUEEV0h16uPTZXBAi2SVA8cQ9JEDuFw=
+github.com/cristalhq/jwt/v4 v4.0.0 h1:gy4qHXjr7U8aPn9G8onlLfnC2UpjTyOg9QvEK/sDqq4=
+github.com/cristalhq/jwt/v4 v4.0.0/go.mod h1:HnYraSNKDRag1DZP92rYHyrjyQHnVEHPNqesmzs+miQ=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/decred/dcrd/crypto/blake256 v1.0.0/go.mod h1:sQl2p6Y26YV+ZOcSTP6thNdn47hh8kt6rqSlvmrXFAc=

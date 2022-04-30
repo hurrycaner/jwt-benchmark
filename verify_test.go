@@ -6,7 +6,7 @@ import (
 	"time"
 
 	sJWT "github.com/brianvoe/sjwt"
-	cristalhqJWT "github.com/cristalhq/jwt"
+	cristalhqJWT "github.com/cristalhq/jwt/v4"
 	jose2go "github.com/dvsekhvalnov/jose2go"
 	gbrlsnchsJWT "github.com/gbrlsnchs/jwt/v3"
 	goJose "github.com/go-jose/go-jose/v3" // former "gopkg.in/square/go-jose.v2"
@@ -40,11 +40,11 @@ func BenchmarkVerify_L0(b *testing.B) {
 	b.ResetTimer()
 
 	for i := 0; i < b.N; i++ {
-		alg, err := cristalhqJWT.NewHS256([]byte(testSecret))
+		verifier, err := cristalhqJWT.NewVerifierHS(cristalhqJWT.HS256, []byte(testSecret))
 		if err != nil {
 			b.Error(err)
 		}
-		_, err = cristalhqJWT.ParseAndVerify(token, alg)
+		_, err = cristalhqJWT.Parse(token, verifier)
 		if err != nil {
 			b.Error(err)
 		}

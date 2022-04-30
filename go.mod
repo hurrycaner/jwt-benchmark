@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/brianvoe/sjwt v0.5.1
-	github.com/cristalhq/jwt v1.2.0
+	github.com/cristalhq/jwt/v4 v4.0.0
 	github.com/dvsekhvalnov/jose2go v1.5.0
 	github.com/gbrlsnchs/jwt/v3 v3.0.1
 	github.com/go-jose/go-jose/v3 v3.0.0
